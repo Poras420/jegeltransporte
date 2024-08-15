@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jegel Transporte GmbH - Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jegel Transporte GmbH</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="about.html">Über uns</a></li>
+                <li><a href="services.html">Dienstleistungen</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="datenschutz.html">Datenschutz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <p>Jegel Transporte GmbH</p>
+                <p>Castroper Hellweg 473, 44805 Bochum</p>
+                <p>Telefon: +49 152 54504636</p>
+                <p>E-Mail: jegeltransporte@arcor.de</p>
+            </div>
+
+            <div class="container">
+                <h2>Kontaktieren Sie uns</h2>
+                <form action="mailto:info@jegeltransporte.de" method="post" enctype="text/plain">
+                    <label for="fname">Vorname:</label>
+                    <input type="text" id="fname" name="firstname" required>
+                    <br>
+                    <label for="lname">Nachname:</label>
+                    <input type="text" id="lname" name="lastname" required>
+                    <br>
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="message">Nachricht:</label>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                    <br>
+                    <input type="submit" value="Absenden">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jegel Transporte GmbH. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
